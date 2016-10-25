@@ -8,8 +8,8 @@ android {
         applicationId "com.completecoverageit.fartsounds"
         minSdkVersion 16
         targetSdkVersion 23
-        versionCode 3
-        versionName "3.0"
+        versionCode 8
+        versionName "8.0"
     }
     buildTypes {
         release {
