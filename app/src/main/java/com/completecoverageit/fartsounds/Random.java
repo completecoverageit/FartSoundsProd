@@ -53,10 +53,19 @@ public class Random extends Activity {
         soundsMap.put(19, pool.load(this, R.raw.fart19, 1));
         soundsMap.put(20, pool.load(this, R.raw.fart20, 1));
         soundsMap.put(21, pool.load(this, R.raw.fart21, 1));
+        soundsMap.put(22, pool.load(this, R.raw.fart22, 1));
+        soundsMap.put(23, pool.load(this, R.raw.fart24, 1));
+        soundsMap.put(24, pool.load(this, R.raw.fart28, 1));
+        soundsMap.put(25, pool.load(this, R.raw.fart31, 1));
+        soundsMap.put(26, pool.load(this, R.raw.fart33, 1));
+        soundsMap.put(27, pool.load(this, R.raw.fart38, 1));
+        soundsMap.put(28, pool.load(this, R.raw.fart39, 1));
+        soundsMap.put(29, pool.load(this, R.raw.fart40, 1));
+        soundsMap.put(30, pool.load(this, R.raw.fart41, 1));
     }
 
     public void playSound(View v) {
-        int random = 1 + (int) (Math.random() * ((21 - 1) + 1));
+        int random = 1 + (int) (Math.random() * ((30 - 1) + 1));
         pool.play(soundsMap.get(random), 1.0f, 1.0f, 1, 0, 1.0f);
     }
 

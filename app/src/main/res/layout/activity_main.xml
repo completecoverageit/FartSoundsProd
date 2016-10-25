@@ -20,7 +20,7 @@
         android:text="Fart Sounds"
         android:textColor="#ffffff"
         android:textStyle="bold"
-        android:textSize="45dp"
+        android:textSize="40dp"
         android:gravity="center_horizontal"
         android:typeface="serif" />
 
@@ -79,6 +79,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/fartlist1" />
         </TableRow>
+
 
         <TableRow
             android:layout_width="match_parent"
